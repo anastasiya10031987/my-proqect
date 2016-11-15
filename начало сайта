@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>мой сайт</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        .header {
+            height: 100px;
+            background-color: khaki;
+            width: 100%;
+        }
+        .menu {
+            height: 50px;
+            background-color: lightcoral
+        }
+        .content {
+            height: 500px;
+            background-color: whitesmoke;
+        }
+        .footer {
+            height: 100px;
+            background-color: lightcoral
+        }
+        . {
+            color: black;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <div class="mid"></div>
+        </div>      
+        <div class="menu">
+            <div class="mid"></div>
+            <ul id="navbar">
+            <li><a href="#">Рестораны</a></li>
+            <li><a href="#">Кино</a></li>
+            <li><a href="#">Квесты</a></li>
+            <li><a href="#">Мастер-классы</a></li>
+            <li><a href="#">Экскурсии</a></li>
+            <li><a href="#">Выставки</a></li>
+            <li><a href="#">С кем пойти?</a></li>
+            </ul>
+
+        </div>
+        <div class="content">
+            <div class="mid"></div>
+        </div>
+        <div class="footer">
+            <div class="mid"></div>
+        </div>
+    </div>
+</body>
+</html>
